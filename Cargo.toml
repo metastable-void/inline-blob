@@ -1,0 +1,15 @@
+[package]
+name = "inline-blob"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+license = "Apache-2.0 OR MPL-2.0"
+authors = ["metastable-void"]
+readme = "README.md"
+repository = "https://github.com/metastable-void/inline-blob"
+description = "Gigabyte-class BLOB embedding macro for x86_64 ELF"
+
+[lib]
+proc-macro = true
+
+[dependencies]
