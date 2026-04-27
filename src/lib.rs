@@ -67,6 +67,5 @@ pub fn blob(input: TokenStream) -> TokenStream {
          = *::core::include_bytes!({path_expr});"
     );
 
-    TokenStream::from_str(&generated)
-        .expect("inline-blob: failed to construct output token stream")
+    TokenStream::from_str(&generated).expect("inline-blob: failed to construct output token stream")
 }
